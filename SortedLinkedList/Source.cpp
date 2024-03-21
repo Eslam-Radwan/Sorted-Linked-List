@@ -13,8 +13,13 @@ int main()
 	s.insert(3);
 	
 	s2.insert(10);
+	cout << "min of second list = " << s2.getMin() << endl;
 	s2.insert(9);
+	cout << "min of second list = " << s2.getMin() << endl;
 	s2.insert(8);
+	cout << "min of second list = " << s2.getMin() << endl;
+
+	cout << "\n";
 
 	cout << "first list before merge :";
 	s.printlist();
